@@ -19,4 +19,5 @@ RUN source ~/.bashrc
 ADD environment.yml /tmp/environment.yml
 WORKDIR /tmp
 RUN conda env create
-
+WORKDIR /
+RUN rm -rf /tmp
