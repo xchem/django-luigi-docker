@@ -16,3 +16,4 @@ dependencies:
 - coverage
 - pip:
   - django-rest-swagger==2.2.0
+  - django-numpy
