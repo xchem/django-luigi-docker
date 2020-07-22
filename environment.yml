@@ -3,6 +3,7 @@ channels:
 - rdkit
 - defaults
 - conda-forge
+- openbabel
 dependencies:
 - rdkit==2017.09.02
 - pandas==0.22.0
@@ -14,6 +15,6 @@ dependencies:
 - django-extensions==2.0.7
 - rdkit-postgresql==2018.03.3.0
 - coverage
+- openbabel
 - pip:
   - django-rest-swagger==2.2.0
-  - django-numpy
